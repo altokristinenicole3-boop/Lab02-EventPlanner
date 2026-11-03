@@ -1,5 +1,163 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', serif;
+}
+
+body {
+  background-color: #ffe6f2;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='50' viewBox='0 0 100 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 25L25 0L50 25L75 0L100 25L100 50L75 25L50 50L25 25L0 50V25Z' fill='%23f28fb8' fill-opacity='0.45'/%3E%3C/svg%3E");
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+  
+  
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.get-started-btn {
+  background-color: #d885b8;
+  color: white;
+  border: none;
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Event Categories */
+.events-section {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.category-card {
+  background-color: #e9d5e8;
+  width: 280px;
+}
+
+.category-card h3 {
+  background-color: #b76eac;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.category-card ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.category-card li {
+  padding: 0.25rem 0;
+  text-align: center;
+}
+
+/* Features */
+.features {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.features ul {
+  list-style: none;
+}
+
+.features li {
+  padding: 0.3rem 0;
+  font-size: 1.05rem;
+}
+
+/* Testimonials */
+.testimonials {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.testimonials p {
+  font-size: 1.05rem;
+  margin: 0.5rem 0;
+}
+
+.author {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin-bottom: 0.3rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 400px;
+  margin: 1.5rem auto 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.send-btn {
+  background-color: #d885b8;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
 }
